@@ -1,0 +1,43 @@
+site_name: Basis Points Podcast
+site_description: Basis Points Podcast — with James, Haik, and George. Featuring an AI co-host.
+site_url: https://example.com
+repo_name: basis-points-podcast
+
+theme:
+  name: material
+  language: en
+  logo: assets/logo.svg
+  favicon: assets/favicon.png
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - toc.follow
+    - content.code.copy
+    - content.tabs.link
+  palette:
+    - scheme: slate
+      primary: black
+      accent: teal
+  font:
+    text: Inter
+    code: JetBrains Mono
+
+extra_css:
+  - assets/styles.css
+extra_javascript:
+  - assets/app.js
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Home: index.md
