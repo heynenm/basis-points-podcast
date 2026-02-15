@@ -26,9 +26,9 @@ hide:
 
     <div class="bp-hosts" id="hosts">
       <div class="bp-hostCard">
-        <div class="bp-hostAvatar">J</div>
+        <div class="bp-hostAvatar bp-hostAvatar--photo" style="background-image:url(assets/mark-heynen.jpg)"><span class="sr-only">Mark Heynen</span></div>
         <div>
-          <div class="bp-hostName">James</div>
+          <div class="bp-hostName">Mark Heynen</div>
           <div class="bp-hostRole">Host</div>
         </div>
       </div>
